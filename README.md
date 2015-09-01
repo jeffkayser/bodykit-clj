@@ -7,7 +7,7 @@ A Clojure library for the Body Labs [BodyKit Instant API](http://developer.bodyl
 Add to `:dependencies` in Leiningen or Boot:
 
 ```clojure
-[bodykit-clj "0.1.0"]
+[jeffkayser/bodykit-clj "0.1.0"]
 ```
 
 ## Use
