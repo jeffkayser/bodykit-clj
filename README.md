@@ -148,6 +148,8 @@ Get a 3D mesh in [Wavefront OBJ](http://people.cs.clemson.edu/~dhouse/courses/40
 
 ![mesh output](https://github.com/jeffkayser/bodykit-clj/raw/master/resources/example.mesh-foo.png)
 
+[View model interactively](https://github.com/jeffkayser/bodykit-clj/raw/master/resources/example.mesh-foo.stl)
+
 #### Mesh metrics
 
 Get a map of physical metrics (e.g., volume, surface area) about the mesh predicted from the given measurements.
