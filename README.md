@@ -146,7 +146,7 @@ Get a 3D mesh in [Wavefront OBJ](http://people.cs.clemson.edu/~dhouse/courses/40
 
 ***Output***
 
-![mesh](https://github.com/jeffkayser/bodykit-clj/raw/master/resources/example.mesh-foo.stl?raw=true)
+![mesh output](https://github.com/jeffkayser/bodykit-clj/raw/master/resources/example.mesh-foo.png)
 
 #### Mesh metrics
 
