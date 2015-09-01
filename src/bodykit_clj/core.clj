@@ -29,9 +29,10 @@
   "Calls the 'measurements' method, which predicts over 50 measurements
   from a smaller set of input measurements. Returns a map."
   [params]
-  (json/decode
-    (let [req-params (u/measurement-params params)]
-      (u/request *base-uri* "measurements" req-params *auth-mode* *key* *secret*))))
+  (clojure.walk/keywordize-keys
+    (json/decode
+      (let [req-params (u/measurement-params params)]
+        (u/request *base-uri* "measurements" req-params *auth-mode* *key* *secret*)))))
 
 ;; http://developer.bodylabs.com/instant_api_reference.html#Mesh
 (defn mesh
@@ -47,9 +48,10 @@
   "Calls the 'mesh_metrics' method, which returns metrics about the
   mesh predicted for the given set of measurements. Returns a map."
   [params]
-  (json/decode
-    (let [req-params (u/measurement-params params)]
-      (u/request *base-uri* "mesh_metrics" req-params *auth-mode* *key* *secret*))))
+  (clojure.walk/keywordize-keys
+    (json/decode
+      (let [req-params (u/measurement-params params)]
+        (u/request *base-uri* "mesh_metrics" req-params *auth-mode* *key* *secret*)))))
 
 ;; http://developer.bodylabs.com/instant_api_reference.html#HeatMap
 (defn heatmap
