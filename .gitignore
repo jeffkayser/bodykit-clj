@@ -13,3 +13,4 @@ pom.xml.asc
 *.iml
 /resources/config.edn
 /src/bodykit_clj/test.clj
+.DS_Store
