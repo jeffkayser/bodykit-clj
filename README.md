@@ -184,9 +184,9 @@ The first mesh specified in the `:bodies` parameter becomes the "representative"
 
 ![heatmap output front](https://github.com/jeffkayser/bodykit-clj/raw/master/resources/example.heatmap-foo+bar-front.png)
 ![heatmap output side](https://github.com/jeffkayser/bodykit-clj/raw/master/resources/example.heatmap-foo+bar-side.png)
-![heatmap output top](https://github.com/jeffkayser/bodykit-clj/raw/master/resources/example.heatmap-foo+bar-top.png)
 
 [View interactive model](https://github.com/jeffkayser/bodykit-clj/blob/master/resources/example.heatmap-foo+bar.stl) 
+
 *Note*: GitHub's STL viewer doesn't support color
 
 ## Viewing Wavefront OBJ files
