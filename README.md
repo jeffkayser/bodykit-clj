@@ -146,9 +146,9 @@ Get a 3D mesh in [Wavefront OBJ](http://people.cs.clemson.edu/~dhouse/courses/40
 
 ***Output***
 
-![mesh output](https://github.com/jeffkayser/bodykit-clj/raw/master/resources/example.mesh-foo.png)
-
 [View interactive model](https://github.com/jeffkayser/bodykit-clj/blob/master/resources/example.mesh-foo.stl)
+
+![mesh output](https://github.com/jeffkayser/bodykit-clj/raw/master/resources/example.mesh-foo.png)
 
 #### Mesh metrics
 
@@ -182,12 +182,12 @@ The first mesh specified in the `:bodies` parameter becomes the "representative"
 
 ***Output***
 
+[View interactive model](https://github.com/jeffkayser/bodykit-clj/blob/master/resources/example.heatmap-foo+bar.stl) 
+
 ![heatmap output front](https://github.com/jeffkayser/bodykit-clj/raw/master/resources/example.heatmap-foo+bar-front.png)
 ![heatmap output side](https://github.com/jeffkayser/bodykit-clj/raw/master/resources/example.heatmap-foo+bar-side.png)
 
-[View interactive model](https://github.com/jeffkayser/bodykit-clj/blob/master/resources/example.heatmap-foo+bar.stl) 
-
-*Note*: GitHub's STL viewer doesn't support color
+*Note*: GitHub's STL viewer doesn't support color.
 
 ## Viewing Wavefront OBJ files
 
