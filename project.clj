@@ -1,4 +1,4 @@
-(defproject bodykit-clj "0.1.0"
+(defproject jeffkayser/bodykit-clj "0.1.0"
   :description "BodyKit API client for Clojure"
   :url "https://github.com/jeffkayser/bodykit-clj"
   :license {:name "Eclipse Public License"
